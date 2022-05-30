@@ -1,5 +1,5 @@
 #!/bin/bash
-printf \""(Ôo)'\n"
+printf "\'\'(Ôo)'\n"
 
 
 
