@@ -1,12 +1,15 @@
 #!/usr/bin/env bash
-# Brint a string and in the ninth loop brint another string
-i=1
-while [ $i -lt 11 ];
+# Displays "Best School" 10 times using a while loop.
+# On the 9th iteration, displays "Hi" before "Best School".
+
+count=0
+
+while [ $count -lt 10 ]
 do
-	echo "Best School";
-	if [ $i -eq 9 ]
+	if [ $count -eq 9 ]
 	then
-		echo "Hi";
+		echo "Hi"
 	fi
-	(( i++ ));
+	echo "Best School"
+	(( count++ ))
 done
